@@ -116,7 +116,8 @@
 
 /* 💀💀💀💀💀💀💀💀💀💀💀💀💀💀 */
 
-@media screen and (max-width: 500px) {
+
+/* @media screen and (max-width: 500px) {
     .main-header {
         display: none;
     }
@@ -133,4 +134,4 @@
     .mobile-header>ion-icon {
         color: var(--primary-color) !important;
     }
-}
+} */

@@ -10,14 +10,6 @@
     align-items: center;
 }
 
-.oncall {
-    display: none;
-}
-
-.mobile-header {
-    display: none;
-}
-
 .main-header>img {
     height: 90px;
 }
