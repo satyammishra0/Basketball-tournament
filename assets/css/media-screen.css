@@ -1,0 +1,136 @@
+/* tab view here */
+
+@media screen and (max-width:800px) {
+    .heading {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: var(--heading-font);
+    }
+    .subheading {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: var(--heading-font);
+    }
+    .text {
+        font-size: 15px;
+    }
+}
+
+
+/* mobile view */
+
+@media screen and (max-width: 500px) {
+    .grid-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-2 {
+        grid-template-columns: repeat(1, 2fr);
+    }
+    .grid-3 {
+        grid-template-columns: repeat(1, 3fr);
+    }
+    .grid-4 {
+        grid-template-columns: repeat(1, 4fr);
+    }
+    .btn {
+        height: 25px;
+    }
+    .anchor {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    /* header */
+    .nav-list>li {
+        display: none;
+    }
+    /* first section */
+    .first {
+        background-size: cover;
+        margin-top: 0;
+        height: 70vh;
+    }
+    .first-content {
+        top: 29%;
+        left: 0%;
+        transform: translate(-10%, -50%);
+    }
+    .first-content>h2 {
+        margin-top: 2%;
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    .first-content>h3 {
+        font-size: 20px;
+    }
+    /* second */
+    .second-img>img {
+        width: 100%;
+        height: 300px;
+        margin-top: 5%;
+    }
+    /* third  */
+    .remainder>h2 {
+        margin-top: 2%;
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    /* fourth */
+    .fourth-team {
+        grid-gap: 0;
+    }
+    .teams {
+        margin: 4% 0;
+    }
+    /* footer */
+    .logo {
+        display: grid;
+        place-items: center;
+    }
+    .contact {
+        text-align: center
+    }
+    /* footer-label */
+    .footer-label {
+        gap: 20px;
+    }
+    .icons {
+        display: none;
+    }
+    .logo>img {
+        height: 200px;
+        margin-left: 0%;
+    }
+    .video>center>iframe {
+        background-size: 100%;
+        height: 30vh;
+        width: 100%;
+    }
+}
+
+
+/* 💀💀💀💀💀💀💀💀💀💀💀💀💀💀 */
+
+
+/* only for header dangerous */
+
+
+/* 💀💀💀💀💀💀💀💀💀💀💀💀💀💀 */
+
+@media screen and (max-width: 500px) {
+    .main-header {
+        display: none;
+    }
+    .mobile-header>img {
+        height: 90px;
+    }
+    .mobile-header {
+        padding-right: 10%;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .mobile-header>ion-icon {
+        color: var(--primary-color) !important;
+    }
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketballs</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/media-screen.css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/sports-logo-transparent.png" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- animation css link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- ************************************** -->
+    <!-- ********** header here *********** -->
+    <!--**************************************  -->
+
+    <header class="header">
+        <div class="main-header flex">
+            <img src="assets/images/sports-logo-transparent.png" />
+            <nav>
+                <ul class="nav-list flex">
+                    <li class="nav-links" id="text"><a href="#">Home</a></li>
+                    <li class="nav-links" id="text"><a href="#about">About</a></li>
+                    <li class="nav-links" id="text"><a href="#team">Teams</a></li>
+                    <li class="nav-links" id="text"><a href="#faqs">FAQ'S</a></li>
+                    <li class="nav-links" id="text"><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- ************************************** -->
+        <!-- ********** mobile header here ***********-->
+        <!--**************************************  -->
+
+        <div class="mobile-header">
+            <img src="assets/images/sports-logo-transparent.png" />
+            <button onclick="myfun()">
+          <ion-icon name="grid-sharp" size="large" color="#"></ion-icon>
+        </button>
+        </div>
+    </header>
+
+    <!-- ************************************** -->
+    <!-- ********** mobile shrink section here ***********-->
+    <!--**************************************  -->
+
+    <section class="oncall" id="oncall">
+        <div class="img-box-header flex">
+            <img src="assets/images/sports-logo-transparent.png" />
+            <button onclick="myfun()">
+          <ion-icon name="close-circle-outline" size="large"></ion-icon>
+        </button>
+        </div>
+        <div class="content-box-header flex">
+            <nav>
+                <ul class="nav-list flex">
+                    <li class="nav-links" id="text"><a href="#">Home</a></li>
+                    <li class="nav-links" id="text"><a href="#about">About</a></li>
+                    <li class="nav-links" id="text"><a href="#team">Teams</a></li>
+                    <li class="nav-links" id="text"><a href="#faqs">FAQ'S</a></li>
+                    <li class="nav-links" id="text"><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- ************************************** -->
+    <!-- ********** first section here ***********-->
+    <!--**************************************  -->
+
+    <section class="first">
+        <div class="first-content" data-aos="fade-up">
+            <h3 class="heading">Amazing Basketball Tournament</h3>
+            <h2>Go fight for it Team!</h2>
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** first section here ***********-->
+    <!--**************************************  -->
+
+    <section class="second grid grid-2" id="about">
+        <div class="second-content">
+            <h2 class="heading">WHO WE ARE</h2>
+            <ul>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+                <li class="flex">
+                    <ion-icon name="basketball-sharp" class="large"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ad!
+                </li>
+            </ul>
+        </div>
+        <div class="second-img grid">
+            <img src="assets/images/artimg-1.png" />
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** third section here *********** -->
+    <!--**************************************  -->
+
+    <section class="third">
+        <div class="remainder flex">
+            <h3 class="heading">BIG ANNOUNCEMENT</h3>
+            <h2 class="heading">Big Tournament coming soon</h2>
+            <button class="btn"><a href="#" class="anchor">JOIN NOW</a></button>
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** fourth section here *********** -->
+    <!--**************************************  -->
+
+    <section class="fourth" id="team">
+        <h2 class="heading">OUR TEAM PREVIEW</h2>
+        <div class="fourth-team grid grid-3">
+            <div class="teams" data-aos="zoom-out">
+                <div class="teams-img grid">
+                    <img src="assets/images/img1.png" />
+                    <h2 class="subheading">PLAYER 1</h2>
+                </div>
+                <div class="teams-content">
+                    <p class="text">Name: <span>David Karlos</span></p>
+                    <p class="text">Age : <span>18</span></p>
+                    <p class="text">Position: <span>Defence</span></p>
+                </div>
+            </div>
+            <div class="teams" data-aos="zoom-out">
+                <div class="teams-img grid">
+                    <img src="assets/images/img2.png" />
+                    <h2 class="subheading">PLAYER 2</h2>
+                </div>
+                <div class="teams-content">
+                    <p class="text">Name: <span>David Karlos</span></p>
+                    <p class="text">Age : <span>18</span></p>
+                    <p class="text">Position: <span>Defence</span></p>
+                </div>
+            </div>
+            <div class="teams" data-aos="zoom-out">
+                <div class="teams-img grid">
+                    <img src="assets/images/img3.png" />
+                    <h2 class="subheading">PLAYER 3</h2>
+                </div>
+                <div class="teams-content">
+                    <p class="text">Name: <span>David Karlos</span></p>
+                    <p class="text">Age : <span>18</span></p>
+                    <p class="text">Position: <span>Defence</span></p>
+                </div>
+            </div>
+            <div class="teams" data-aos="zoom-out">
+                <div class="teams-img grid">
+                    <img src="assets/images/img4.png" />
+                    <h2 class="subheading">PLAYER 4</h2>
+                </div>
+                <div class="teams-content">
+                    <p class="text">Name: <span>David Karlos</span></p>
+                    <p class="text">Age : <span>18</span></p>
+                    <p class="text">Position: <span>Defence</span></p>
+                </div>
+            </div>
+            <div class="teams" data-aos="zoom-out">
+                <div class="teams-img grid">
+                    <img src="assets/images/img2.png" />
+                    <h2 class="subheading">PLAYER 5</h2>
+                </div>
+                <div class="teams-content">
+                    <p class="text">Name: <span>David Karlos</span></p>
+                    <p class="text">Age : <span>18</span></p>
+                    <p class="text">Position: <span>Defence</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** fifth section here *********** -->
+    <!--**************************************  -->
+
+    <section class="fifth">
+        <h2 class="heading">TOURNAMENT DESCRIPTION</h2>
+        <div class="video">
+            <center>
+                <iframe src="https://www.youtube.com/embed/hqvGOPB0KmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** sixth section here *********** -->
+    <!--**************************************  -->
+
+    <section class="sixth grid grid-2" id="faqs">
+        <div class="second-content">
+            <h2 class="heading">SOME IMPORTANT FAQ'S</h2>
+            <ul>
+                <li class="flex">
+                    <div class="facs">
+                        <strong>How to play?</strong><br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero deleniti aliquam provident at sit ipsum nostrum alias est fugiat obcaecati?
+                        </p>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="facs">
+                        <strong>Where to play?</strong><br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero deleniti aliquam provident at sit ipsum nostrum alias est fugiat obcaecati?
+                        </p>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="facs">
+                        <strong>What to play?</strong><br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero deleniti aliquam provident at sit ipsum nostrum alias est fugiat obcaecati?
+                        </p>
+                    </div>
+                </li>
+                <li class="flex">
+                    <div class="facs">
+                        <strong>When to play?</strong><br />
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero deleniti aliquam provident at sit ipsum nostrum alias est fugiat obcaecati?
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="second-img grid">
+            <img src="assets/images/artimg-3.png" />
+        </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** footer section here *********** -->
+    <!--**************************************  -->
+
+    <footer class="footer grid grid-3">
+        <div class="logo">
+            <img src="assets/images/sports-logo-transparent.png" />
+        </div>
+        <div class="contact">
+            <div class="label-pack">
+                <h2>CONTACT</h2>
+                <p>+91 99999999999</p>
+            </div>
+            <div class="label-pack">
+                <h2>ADDRESS</h2>
+                <p>
+                    LCO Basketball Ground,<br /> 55 - Fictional Homes, Fictional Road <br /> Near Fictional Lake.<br />India
+                </p>
+            </div>
+        </div>
+        <form action="">
+            <h2 style="color: #000">TO TAKE PART</h2>
+            <div class="label-pack">
+                <label>Name:</label>
+                <input type="text" name="" placeholder="Enter your name" />
+            </div>
+            <div class="label-pack">
+                <label>Age:</label>
+                <input type="text" name="" placeholder="Enter your age" />
+            </div>
+            <button type="submit" class="btn"><a href="#">SUBMIT</a></button>
+        </form>
+    </footer>
+
+    <!-- ************************************** -->
+    <!-- ********** footer label here *********** -->
+    <!--**************************************  -->
+
+    <section class="footer-label flex" id="footer">
+        <img src="assets/images/sports-logo-transparent.png" />
+        <p>
+            © 2020 LEARNCODEONLINE —<a href="https://www.instagram.com/_satyammishra07/">@satyam mishra</a
+        >
+      </p>
+      <div class="icons flex">
+        <a href="https://www.facebook.com/in/hiteshchoudhary/">
+          <ion-icon name="logo-facebook" size="medium"></ion-icon>
+        </a>
+            <a href="https://www.instagram.com/hiteshchoudharyofficial/">
+                <ion-icon name="logo-instagram" size="medium"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/hiteshchoudhary/">
+                <ion-icon name="logo-linkedin" size="medium"></ion-icon>
+            </a>
+            <a href="https://web.learncodeonline.in/">
+                <ion-icon name="logo-chrome" size="medium"></ion-icon>
+            </a>
+            </div>
+    </section>
+
+    <!-- ************************************** -->
+    <!-- ********** scripts here *********** -->
+    <!--**************************************  -->
+
+    <script src="assets/js/index.js"></script>
+    <!-- ionic icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- animation links -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // offset (in px) from the original trigger point
+            delay: 400, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: "ease", // default easing for AOS animations
+        });
+    </script>
+</body>
+
+</html>
